@@ -51,7 +51,7 @@ There were out of range values on ‘Height’, Patients whose height were 40cm 
 
 
 <p>
-    <img src ="3.png" width="110%" height="50%" alt>
+    <img src ="3.png" width="60%" height="60%" alt>
     <br />
     <em>Figure2: Percentage of missing data under the selected features</em>
 </p>
