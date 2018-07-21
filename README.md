@@ -38,7 +38,10 @@ There were out of range values on ‘Height’, Patients whose height were 40cm 
 <br />
 <br />
 
-
+<p>
+    <img src="4.png" width="90%" height="90%" alt>
+    <em>Figure1: Variables</em>
+</p>
 <img src="4.png" width="90%" height="90%" alt>
 *Figure1: Variables*
 <br />
