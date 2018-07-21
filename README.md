@@ -22,3 +22,25 @@ The data used for the study consist of records from 17,762 ICU stays. All patien
 Excluding ‘Record_ID’ 41 variables were extracted from MIMIC-III database. Not all variables are available in all cases, however. Four of these variables are general descriptors (collected on admission), and the remainder are time series, for which multiple observations may be available. As the time series measurements were recorded in chronological order, their ‘First’, ‘Last’, ‘Highest’, ‘Lowest’, ‘Median’ and ‘Frequency’ of those measurements were depicted as their represented features.
 
 
+## Data handling
+
+### Feature selection:
+The number of unmeasured samples on each of those 41 variables were counted and those variables with more than 10% unmeasured samples were excluded (A 10% threshold has been set).
+
+
+### Handling missing values:
+Unmeasured samples in the remaining 100 variables consist of general descriptors and time-series were imputed with the related variable mean value.
+
+### Handling out of range values:
+There were out of range values on ‘Age’; Patients whose age were 300 or more. Those were converted to the range 89 and beyond.
+There were out of range values on ‘Height’, Patients whose height were 40cm or less. The mean value of other patients were imputed on those samples.
+
+![Distribution of missing feature per sample](1.png)
+
+
+![Distribution of missing feature per sample](2.png)
+
+## Results
+| Dataset | No. of samples | No. of features | Feature removal (num_samples_null < 10%) | sample removal (num_features_null<10%) | stepwise feature selection(P_value < 0.05) | Imputation | AUROC | AUPRC |
+|:------------|:------------|:------------|:------------|:------------|:------------|:------------|:------------|:------------|
+
