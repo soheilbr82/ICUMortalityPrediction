@@ -41,6 +41,3 @@ There were out of range values on ‘Height’, Patients whose height were 40cm 
 ![Distribution of missing feature per sample](2.png)
 
 ## Results
-| Dataset | No. of samples | No. of features | Feature removal (num_samples_null < 10%) | sample removal (num_features_null<10%) | stepwise feature selection(P_value < 0.05) | Imputation | AUROC | AUPRC |
-|:------------|:------------|:------------|:------------|:------------|:------------|:------------|:------------|:------------|
-
