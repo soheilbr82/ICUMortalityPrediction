@@ -45,36 +45,41 @@ There were out of range values on ‘Height’, Patients whose height were 40cm 
 <p>
     <em>Figure1: Variables</em>
 </p>
-
-
-
-<img src="4.png" width="90%" height="90%" >
-*Figure1: Variables*
 <br />
 <br />
 <br />
 
 
 
-
-<img src="3.png" width="80%" height="80%" >
-*Figure2: Percentage of missing data under the selected features*
+<p>
+    <src="3.png" width="80%" height="80%" alt>
+</p>
+<p>
+    <em>Figure2: Percentage of missing data under the selected features</em>
+</p>
 <br />
 <br />
 <br />
 
 
 
-<img src="1.png" width="80%" height="80%" >
-*Figure3: Distribution of missing feature per sample*
+<p>
+    <src="1.png" width="80%" height="80%" alt>
+</p>
+<p>
+    <em>Figure3: Distribution of missing feature per sample</em>
+</p>
 <br />
 <br />
 <br />
 
 
-
-<img src="2.png" width="80%" height="80%" >
-*Figure4: Distribution of missing feature per sample*
+<p>
+    <src="2.png" width="80%" height="80%" alt>
+</p>
+<p>
+    <em>Figure4: Distribution of missing feature per sample</em>
+</p>
 <br />
 <br />
 <br />
