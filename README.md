@@ -34,22 +34,43 @@ Unmeasured samples in the remaining 100 variables consist of general descriptors
 ### Handling out of range values:
 There were out of range values on ‘Age’; Patients whose age were 300 or more. Those were converted to the range 89 and beyond.
 There were out of range values on ‘Height’, Patients whose height were 40cm or less. The mean value of other patients were imputed on those samples.
+<br />
+<br />
+<br />
 
 ![Variables](4.png)
 *Figure1: Variables*
+
+<br />
+<br />
+<br />
 
 
 
 ![Percentage of missing data under the selected features](3.png)
 *Figure2: Percentage of missing data under the selected features*
+<br />
+<br />
+<br />
+
 
 
 ![Distribution of missing feature per sample](1.png)
 *Figure3: Distribution of missing feature per sample*
+<br />
+<br />
+<br />
+
 
 
 ![Distribution of missing feature per sample](2.png)
 *Figure4: Distribution of missing feature per sample*
+<br />
+<br />
+<br />
+
+
+
 
 ## Results
 
