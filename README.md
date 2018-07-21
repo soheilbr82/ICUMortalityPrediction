@@ -36,16 +36,20 @@ There were out of range values on ‘Age’; Patients whose age were 300 or more
 There were out of range values on ‘Height’, Patients whose height were 40cm or less. The mean value of other patients were imputed on those samples.
 
 ![Variables](4.png)
+*Figure1: Variables*
 
 
 
 ![Percentage of missing data under the selected features](3.png)
+*Figure2: Percentage of missing data under the selected features*
 
 
 ![Distribution of missing feature per sample](1.png)
+*Figure3: Distribution of missing feature per sample*
 
 
 ![Distribution of missing feature per sample](2.png)
+*Figure4: Distribution of missing feature per sample*
 
 ## Results
 
